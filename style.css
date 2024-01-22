@@ -6,8 +6,14 @@
     box-sizing: border-box;
     font-family: 'Manrope', sans-serif;
     /* border: 1px solid red; */
+    color: #bababa;
 }
 .contain{
     max-width: 1200px;
     margin: auto;
+}
+@media (0px < width <= 650px) {
+    .contain{
+        padding: 0rem 1rem;
+    }
 }
