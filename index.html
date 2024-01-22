@@ -11,9 +11,11 @@
           theme: {
             colors: {
                 black: "#131318",
-                gray: "#bababa",
+                gray: "#797979",
+                gray2: "#bababa",
                 red: "#FF4240",
-                white: "#ffffff"
+                white: "#ffffff",
+                white2: "#ffffffba"
             },            
           }
         }
@@ -42,7 +44,7 @@
     <!-- Navbar End -->
 
     <!-- Hero Section Start -->
-    <header class="contain mt-4 relative">
+    <header class="contain mt-2 lg:mt-4 relative">
         <div class="carousel h-[500px] rounded-xl">
             <div id="slide1" class="carousel-item relative w-full">
               <img src="Images/hockey1.webp" class="w-full object-cover" />
@@ -67,11 +69,266 @@
             </div> 
           </div>
           </div>
-          <div class="w-[600px] bg-black absolute bottom-10 right-10 p-5 rounded-lg">
+          <div class="hidden lg:block mx-[1rem] lg:mx-0 lg:w-[600px] bg-black absolute -bottom-52 lg:bottom-10 right-0 lg:right-10 p-5 rounded-lg">
             <h1 class="text-white font-bold text-xl mb-1">Meet all the heroes from the field</h1>
-            <p class="text-gray">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin.</p>
+            <p class="text-gray2">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin.</p>
+          </div>
+          <div class="block lg:hidden mt-3 contian bg-black p-5 rounded-lg">
+            <h1 class="text-white font-bold text-xl mb-1">Meet all the heroes from the field</h1>
+            <p class="text-gray2">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin.</p>
           </div>   
     </header>
     <!-- Hero Section End -->
+
+    <!-- Progress Section Start -->
+    <div class="contain mt-6 lg:mt-12">
+        <div class="text-center p-4 lg:p-8 bordert borderb">
+            <h1 class="text-2xl lg:text-4xl font-bold mb-4">Professional Hockeys Club</h1>
+            <p class="text-gray max-w-[500px] m-auto">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin.</p>
+        </div>
+        <div class="grid grid-cols-1 lg:grid-cols-4 py-10 lg:py-16 gap-7 lg:gap-3">
+            <div class="flex flex-col gap-3 text-center">
+                <div class="radial-progress text-primary m-auto" style="--value:85;" role="progressbar">85%</div>
+                <h2 class="text-lg font-bold">Prayer Facility</h2>
+                <p class="text-gray">Amet consectetur. Condimentum dignissim adipiscing.</p>
+            </div>
+            <div class="flex flex-col gap-3 text-center">
+                <div class="radial-progress text-secondary m-auto" style="--value:90;" role="progressbar">90%</div>
+                <h2 class="text-lg font-bold">Experienced Coach</h2>
+                <p class="text-gray">Amet consectetur. Condimentum dignissim adipiscing.</p>
+            </div>
+            <div class="flex flex-col gap-3 text-center">
+                <div class="radial-progress text-success m-auto" style="--value:75;" role="progressbar">75%</div>
+                <h2 class="text-lg font-bold">Senior Player</h2>
+                <p class="text-gray">Amet consectetur. Condimentum dignissim adipiscing.</p>
+            </div>
+            <div class="flex flex-col gap-3 text-center">
+                <div class="radial-progress text-error m-auto" style="--value:80;" role="progressbar">80%</div>
+                <h2 class="text-lg font-bold">Training Ground</h2>
+                <p class="text-gray">Amet consectetur. Condimentum dignissim adipiscing.</p>
+            </div>          
+        </div>
+    </div>
+    <!-- Progress Section End -->
+
+    <!-- Program Sections Start -->
+    <div class="mt-4 lg:mt-8 contain">
+        <div class="text-center p-4 lg:p-8 bordert borderb">
+            <h1 class="text-2xl lg:text-4xl font-bold mb-4">Program Sections</h1>
+            <p class="text-gray max-w-[500px] m-auto">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin.</p>
+        </div>
+        <div class="grid grid-cols-1 lg:grid-cols-4 gap-5 mt-5 lg:mt-10">
+            <div class="ps-div1 col-span-1 lg:col-span-2 flex flex-col gap-4 px-4 lg:px-7 justify-center">
+                <h3 class="text-white text-[1.6rem] lg:text-[1.9rem] font-bold">Junior Program</h3>
+                <p class="text-white2 max-w-[450px]">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
+                    enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
+                <button class="py-2 w-[170px] px-5 bg-red text-white rounded-md">Register Now!</button>
+            </div>
+            <div class="ps-div2 col-span-1 lg:col-span-2 flex flex-col gap-4 px-4 lg:px-7 justify-center">
+                <h3 class="text-white text-[1.6rem] lg:text-[1.9rem] font-bold">Teenager Program</h3>
+                <p class="text-white2 max-w-[450px]">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
+                    enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
+                <button class="py-2 w-[170px] px-5 bg-red text-white rounded-md">Register Now!</button>
+            </div>
+            <div class="ps-div3 col-span-1 lg:col-span-4 flex flex-col gap-4 px-4 lg:px-7 justify-end py-7">
+                <h3 class="text-white text-[1.6rem] lg:text-[1.9rem] font-bold">Professional Program</h3>
+                <p class="text-white2 max-w-[450px]">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
+                    enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
+                <button class="py-2 w-[170px] px-5 bg-red text-white rounded-md">Register Now!</button>
+            </div>
+        </div>
+    </div>
+    <!-- Program Sections End -->
+
+    <!-- Our New Products Section Start -->
+    <div class="mt-6 lg:mt-12 contain">
+        <div class="text-center p-4 lg:p-8 bordert borderb">
+            <h1 class="text-2xl lg:text-4xl font-bold mb-4">Our New Products</h1>
+            <p class="text-gray max-w-[500px] m-auto">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin.</p>
+        </div>
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-5 mt-5 lg:mt-10">
+            <div class="cursor-pointer flex flex-col lg:flex-row gap-5 p-5 borderItem rounded-lg">
+                <div>
+                    <img src="Images/5.png" alt="" class="w-full">
+                </div>
+                <div class="flex flex-col gap-2 lg:justify-between">
+                    <div class="flex gap-6 items-center text-gray">
+                        <div class="flex items-center gap-1">
+                            <img src="Images/star.png" alt="">
+                            <p>5.0</p>
+                        </div>
+                        <div class="flex items-center gap-1">
+                            <img src="Images/eye.png" alt="">
+                            <p>995</p>
+                        </div>
+                        <div class="flex items-center gap-1">
+                            <img src="Images/love.png" alt="">
+                            <p>463</p>
+                        </div>
+                    </div>
+                    <h1 class="text-xl font-bold">World Cup Jacket</h1>
+                    <p class="text-gray">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+                    <div class="flex items-start lg:items-center justify-between flex-col lg:flex-row gap-2 lg:gap-0">
+                        <h2 class="text-lg text-red font-bold">Price - $122.00</h2>
+                        <div class="flex gap-2 text-gray">
+                            <img src="Images/cart.png" alt="">
+                            <p>Delivery Fee : Free</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cursor-pointer flex flex-col lg:flex-row gap-5 p-5 borderItem rounded-lg">
+                <div>
+                    <img src="Images/6.png" alt="" class="w-full">
+                </div>
+                <div class="flex flex-col gap-2 lg:justify-between">
+                    <div class="flex gap-6 items-center text-gray">
+                        <div class="flex items-center gap-1">
+                            <img src="Images/star.png" alt="">
+                            <p>4.2</p>
+                        </div>
+                        <div class="flex items-center gap-1">
+                            <img src="Images/eye.png" alt="">
+                            <p>450</p>
+                        </div>
+                        <div class="flex items-center gap-1">
+                            <img src="Images/love.png" alt="">
+                            <p>140</p>
+                        </div>
+                    </div>
+                    <h1 class="text-xl font-bold">World Cup Flags Football</h1>
+                    <p class="text-gray">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+                    <div class="flex items-start lg:items-center justify-between flex-col lg:flex-row gap-2 lg:gap-0">
+                        <h2 class="text-lg text-red font-bold">Price - $22.00</h2>
+                        <div class="flex gap-2 text-gray">
+                            <img src="Images/cart.png" alt="">
+                            <p>Delivery Fee : Free</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cursor-pointer flex flex-col lg:flex-row gap-5 p-5 borderItem rounded-lg">
+                <div>
+                    <img src="Images/7.png" alt="" class="w-full">
+                </div>
+                <div class="flex flex-col gap-2 lg:justify-between">
+                    <div class="flex gap-6 items-center text-gray">
+                        <div class="flex items-center gap-1">
+                            <img src="Images/star.png" alt="">
+                            <p>4.8</p>
+                        </div>
+                        <div class="flex items-center gap-1">
+                            <img src="Images/eye.png" alt="">
+                            <p>476</p>
+                        </div>
+                        <div class="flex items-center gap-1">
+                            <img src="Images/love.png" alt="">
+                            <p>237</p>
+                        </div>
+                    </div>
+                    <h1 class="text-xl font-bold">World Cup Cap</h1>
+                    <p class="text-gray">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+                    <div class="flex items-start lg:items-center justify-between flex-col lg:flex-row gap-2 lg:gap-0">
+                        <h2 class="text-lg text-red font-bold">Price - $25.00</h2>
+                        <div class="flex gap-2 text-gray">
+                            <img src="Images/cart.png" alt="">
+                            <p>Delivery Fee : Free</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cursor-pointer flex flex-col lg:flex-row gap-5 p-5 borderItem rounded-lg">
+                <div>
+                    <img src="Images/8.png" alt="" class="w-full">
+                </div>
+                <div class="flex flex-col gap-2 lg:justify-between">
+                    <div class="flex gap-6 items-center text-gray">
+                        <div class="flex items-center gap-1">
+                            <img src="Images/star.png" alt="">
+                            <p>5.0</p>
+                        </div>
+                        <div class="flex items-center gap-1">
+                            <img src="Images/eye.png" alt="">
+                            <p>987</p>
+                        </div>
+                        <div class="flex items-center gap-1">
+                            <img src="Images/love.png" alt="">
+                            <p>766</p>
+                        </div>
+                    </div>
+                    <h1 class="text-xl font-bold">World Cup Jursey</h1>
+                    <p class="text-gray">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+                    <div class="flex items-start lg:items-center justify-between flex-col lg:flex-row gap-2 lg:gap-0">
+                        <h2 class="text-lg text-red font-bold">Price - $145.00</h2>
+                        <div class="flex gap-2 text-gray">
+                            <img src="Images/cart.png" alt="">
+                            <p>Delivery Fee : Free</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cursor-pointer flex flex-col lg:flex-row gap-5 p-5 borderItem rounded-lg">
+                <div>
+                    <img src="Images/9.png" alt="" class="w-full">
+                </div>
+                <div class="flex flex-col gap-2 lg:justify-between">
+                    <div class="flex gap-6 items-center text-gray">
+                        <div class="flex items-center gap-1">
+                            <img src="Images/star.png" alt="">
+                            <p>4.1</p>
+                        </div>
+                        <div class="flex items-center gap-1">
+                            <img src="Images/eye.png" alt="">
+                            <p>120</p>
+                        </div>
+                        <div class="flex items-center gap-1">
+                            <img src="Images/love.png" alt="">
+                            <p>33</p>
+                        </div>
+                    </div>
+                    <h1 class="text-xl font-bold">World Cup Helmet</h1>
+                    <p class="text-gray">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+                    <div class="flex items-start lg:items-center justify-between flex-col lg:flex-row gap-2 lg:gap-0">
+                        <h2 class="text-lg text-red font-bold">Price - $80.00</h2>
+                        <div class="flex gap-2 text-gray">
+                            <img src="Images/cart.png" alt="">
+                            <p>Delivery Fee : Free</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cursor-pointer flex flex-col lg:flex-row gap-5 p-5 borderItem rounded-lg">
+                <div>
+                    <img src="Images/10.png" alt="" class="w-full">
+                </div>
+                <div class="flex flex-col gap-2 lg:justify-between">
+                    <div class="flex gap-6 items-center text-gray">
+                        <div class="flex items-center gap-1">
+                            <img src="Images/star.png" alt="">
+                            <p>5.0</p>
+                        </div>
+                        <div class="flex items-center gap-1">
+                            <img src="Images/eye.png" alt="">
+                            <p>700</p>
+                        </div>
+                        <div class="flex items-center gap-1">
+                            <img src="Images/love.png" alt="">
+                            <p>485</p>
+                        </div>
+                    </div>
+                    <h1 class="text-xl font-bold">World Cup Flags Football</h1>
+                    <p class="text-gray">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+                    <div class="flex items-start lg:items-center justify-between flex-col lg:flex-row gap-2 lg:gap-0">
+                        <h2 class="text-lg text-red font-bold">Price - $180.00</h2>
+                        <div class="flex gap-2 text-gray">
+                            <img src="Images/cart.png" alt="">
+                            <p>Delivery Fee : Free</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Our New Products Section End -->
 </body>
 </html>
