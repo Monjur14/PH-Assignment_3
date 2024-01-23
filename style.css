@@ -6,7 +6,6 @@
     box-sizing: border-box;
     font-family: 'Manrope', sans-serif;
     /* border: 1px solid red; */
-    color: ;
 }
 .contain{
     max-width: 1200px;
@@ -38,6 +37,13 @@
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 15px;
+}
+.border3{
+    border: 1.5px solid rgba(158, 157, 157, 0.361);
+}
+label{
+    font-size: 1.15rem;
+    font-weight: 700;
 }
 @media (0px < width <= 650px) {
     .contain{
